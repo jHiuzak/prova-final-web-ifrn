@@ -11,6 +11,19 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: cyan;
+    max-width: 100%;
+    width: 60rem;
+    /* width: 60rem; */
+}
+
 .three-balls {
     display: flex;
     gap: 0.5rem;
