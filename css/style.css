@@ -16,6 +16,8 @@ body {
     border: 0.15rem solid black;
     display: flex;
     flex-direction: column;
+    font-size: 1.25rem;
+    /* font-style: italic; */
 }
 
 header {
@@ -50,10 +52,55 @@ main {
     flex-direction: column;
     gap: 5rem;
     max-width: 100%;
-    width: 60rem;
+    width: 40rem;
 }
 
 img {
     height: auto;
     width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.field .text {
+    width: 20rem;
+}
+.field.selector {
+    width: 10rem;
+}
+
+.name-and-campus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field .radio-box {
+    display: flex;
+    gap: 1rem;
+}
+
+/* .alone-in-row {
+    margin-right: 50%;
+} */
+
+.field .radio {
+    display: flex;
+    gap: 0.2rem;
+    font-size: 1rem;
+}
+
+form .buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
 }

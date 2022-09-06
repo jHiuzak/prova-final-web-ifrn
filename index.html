@@ -25,41 +25,49 @@
             </figure>
             <article>
                 <form method="post">
-                    <div class="field">
-                        <label class="lblSignIn" for="name">Nome do aluno</label>
-                        <input class="inpSignIn" id="name" name="name" placeholder="Seu nome"/>
-                    </div>
-                    <div class="field selector">
-                        <label class="lblSignIn" for="birth-place">Campus</label>
-                        <select name="birth-place">
-                            <option value="Currais Novos">Currais Novos</option>
-                            <option value="Natal">Natal</option>
-                            <option value="Nova Cruz">Nova Cruz</option>
-                            <option value="Parnamirim">Parnamirim</option>
-                        </select>
-                    </div>    
-                    <div class="field">
-                        <label class="lblSignIn" for="cpf">CPF do aluno</label>
-                        <input class="inpSignIn" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX"></input>
-                    </div>
-                    <div class="field">
-                        <div>Curso</div>
-                        <div>
-                            <label for="course">Tec Informática</label>
-                            <input type="radio" name="course" value="Tec Informática"/>
-                            <label for="course">Tec Química</label>
-                            <input type="radio" name="course" value="Tec Química"/>
-                            <label for="course">Tec Administração</label>
-                            <input type="radio" name="course" value="Tec Administração"/>
+                    <div class="name-and-campus">
+                        <div class="field">
+                            <label for="name">Nome do aluno</label>
+                            <input class="text" name="name" placeholder="Seu nome"/>
+                        </div>
+                        <div class="field selector">
+                            <label class="field selector" for="campus">Campus</label>
+                            <select name="campus">
+                                <option value="Currais Novos">Currais Novos</option>
+                                <option value="Natal">Natal</option>
+                                <option value="Nova Cruz">Nova Cruz</option>
+                                <option value="Parnamirim">Parnamirim</option>
+                            </select>
                         </div>
                     </div>
                     <div class="field">
-                        <label class="lblSignIn" for="birthDate">Data de ingresso</label>
-                        <input class="inpSignIn" id="birthDate" name="birthDate" type="date"/>
+                        <label for="cpf">CPF do aluno</label>
+                        <input class="text" name="cpf" placeholder="XXX.XXX.XXX-XX"></input>
+                    </div>
+                    <div class="field">
+                        <div>Curso</div>
+                        <div class="radio-box">
+                            <div class="radio">
+                                <input type="radio" name="course" value="Tec Informática"/>
+                                <label for="course">Tec Informática</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="course" value="Tec Química"/>
+                                <label for="course">Tec Química</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="course" value="Tec Administração"/>
+                                <label for="course">Tec Administração</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alone-in-row field selector">
+                        <label for="entry-date">Data de ingresso</label>
+                        <input id="entry-date" name="entry-date" type="date"/>
                     </div>         
                     <div class="field">
-                        <label class="lblSignIn" for="quote">Observações</label>
-                        <textarea class="inpSignIn" cols="" id="inpQuote" name="quote" placeholder="sugestões, elogios, reclamações..." rows="4"></textarea>
+                        <label for="quote">Observações</label>
+                        <textarea cols="" name="quote" placeholder="sugestões, elogios, reclamações..." rows="4"></textarea>
                     </div>
                     <div class="buttons">
                         <button type="submit">Submit</button>
