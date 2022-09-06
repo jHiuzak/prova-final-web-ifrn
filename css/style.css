@@ -47,6 +47,7 @@ header {
 main {
     background-color: cyan;
     display: flex;
+    flex-direction: column;
     gap: 5rem;
     max-width: 100%;
     width: 60rem;
