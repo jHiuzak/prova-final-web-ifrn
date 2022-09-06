@@ -36,6 +36,7 @@ header {
 .three-balls {
     display: flex;
     gap: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .three-balls div {
@@ -47,7 +48,6 @@ header {
 }
 
 main {
-    background-color: cyan;
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -83,6 +83,7 @@ form {
 
 .field .text,
 .field .date,
+button,
 select {
     border: 0.1rem solid black;
     border-radius: 0.2rem;
@@ -110,4 +111,14 @@ form .buttons {
     gap: 2rem;
     justify-content: center;
     margin-bottom: 2rem;
+}
+
+button {    
+    padding: 0.5rem 1.5rem;
+}
+
+.buttons .submit {
+    background-color: #212121;
+    border: none;
+    color: white;
 }
