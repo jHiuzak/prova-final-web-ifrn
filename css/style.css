@@ -13,12 +13,14 @@ html {
 
 body {
     align-items: center;
+    border: 0.15rem solid black;
     display: flex;
     flex-direction: column;
 }
 
 header {
     align-items: center;
+    border-bottom: 0.15rem solid black;
     display: flex;
     width: 100%;
 }
@@ -27,11 +29,6 @@ header {
     background-color: #fff;
     flex: auto;
     text-align: center;
-}
-
-header h1 {
-    /* margin-left: auto; */
-    /* position: absolute; */
 }
 
 .three-balls {
@@ -49,7 +46,13 @@ header h1 {
 
 main {
     background-color: cyan;
+    display: flex;
+    gap: 5rem;
     max-width: 100%;
     width: 60rem;
-    /* width: 60rem; */
+}
+
+img {
+    height: auto;
+    width: 100%;
 }
