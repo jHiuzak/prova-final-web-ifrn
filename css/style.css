@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.three-balls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.three-balls div {
+    background-color: white;
+    border: 0.1rem solid black;
+    border-radius: 100%;
+    height: 0.5rem;
+    width: 0.5rem;
+}
