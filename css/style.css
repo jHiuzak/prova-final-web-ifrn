@@ -81,6 +81,14 @@ form {
     width: 10rem;
 }
 
+.field .text,
+.field .date,
+select {
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+
 .name-and-campus {
     display: flex;
     justify-content: space-between;
