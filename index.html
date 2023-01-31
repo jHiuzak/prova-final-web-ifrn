@@ -1,82 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Document</title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/jquery-1.2.6.min.js" defer="true"></script>
-        <script src="js/jquery.maskedinput.min.js" defer="true"></script>
-        <script src="js/script.js" defer="true"></script>
-    </head>
-    <body>
-        <header>
-            <div class="three-balls">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div id="page-title">
-                <h1>Site Title</h1>
-            </div>
-        </header>
-        <main>
-            <figure>
-                <img src="img/ifrn" alt="Logo do IFRN"/>
-            </figure>
-            <article>
-                <form method="post" action="http://www2.ifrn.edu.br/sirab/send.php">
-                    <div class="name-and-campus">
-                        <div class="field">
-                            <label for="name">Nome do aluno</label>
-                            <input class="text" name="name"/>
-                        </div>
-                        <div class="field selector">
-                            <label class="field" for="campus">Campus</label>
-                            <select name="campus">
-                                <option value="Currais Novos">Currais Novos</option>
-                                <option value="Natal">Natal</option>
-                                <option value="Nova Cruz">Nova Cruz</option>
-                                <option value="Parnamirim">Parnamirim</option>
-                            </select>
-                        </div>
-                    </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFRN Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.2.6.min.js" defer="true"></script>
+    <script src="js/jquery.maskedinput.min.js" defer="true"></script>
+    <script src="js/script.js" defer="true"></script>
+</head>
+
+<body>
+    <header>
+        <div class="three-balls">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="page-title">
+            <h1>Site Title</h1>
+        </div>
+    </header>
+    <main>
+        <figure>
+            <img src="img/ifrn" alt="Logo do IFRN" />
+        </figure>
+        <article>
+            <form method="post" action="http://www2.ifrn.edu.br/sirab/send.php">
+                <div class="name-and-campus">
                     <div class="field">
-                        <label for="cpf">CPF do aluno</label>
-                        <input id="cpf" class="text" name="cpf" placeholder="000.000.000-00"></input>
-                    </div>
-                    <div class="field">
-                        <div>Curso</div>
-                        <div class="radio-box">
-                            <div class="radio">
-                                <input type="radio" name="course" value="Tec Informática"/>
-                                <label for="course">Tec Informática</label>
-                            </div>
-                            <div class="radio">
-                                <input type="radio" name="course" value="Tec Química"/>
-                                <label for="course">Tec Química</label>
-                            </div>
-                            <div class="radio">
-                                <input type="radio" name="course" value="Tec Administração"/>
-                                <label for="course">Tec Administração</label>
-                            </div>
-                        </div>
+                        <label for="name">Nome do aluno</label>
+                        <input class="text" name="name" />
                     </div>
                     <div class="field selector">
-                        <label for="entry-date">Data de ingresso</label>
-                        <input class="date" name="entry-date" type="date"/>
-                    </div>         
-                    <div class="field">
-                        <label for="quote">Observações</label>
-                        <textarea cols="" name="quote" rows="4"></textarea>
+                        <label class="field" for="campus">Campus</label>
+                        <select name="campus">
+                            <option value="Currais Novos">Currais Novos</option>
+                            <option value="Natal">Natal</option>
+                            <option value="Nova Cruz">Nova Cruz</option>
+                            <option value="Parnamirim">Parnamirim</option>
+                        </select>
                     </div>
-                    <div class="buttons">
-                        <button type="submit" class="submit">Submit</button>
-                        <button type="reset">Limpar</button>
+                </div>
+                <div class="field">
+                    <label for="cpf">CPF do aluno</label>
+                    <input id="cpf" class="text" name="cpf" placeholder="000.000.000-00"></input>
+                </div>
+                <div class="field">
+                    <div>Curso</div>
+                    <div class="radio-box">
+                        <div class="radio">
+                            <input type="radio" name="course" value="Tec Informática" />
+                            <label for="course">Tec Informática</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="course" value="Tec Química" />
+                            <label for="course">Tec Química</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="course" value="Tec Administração" />
+                            <label for="course">Tec Administração</label>
+                        </div>
                     </div>
-                </form>
-            </article>
-        </main>
-    </body>
+                </div>
+                <div class="field selector">
+                    <label for="entry-date">Data de ingresso</label>
+                    <input class="date" name="entry-date" type="date" />
+                </div>
+                <div class="field">
+                    <label for="quote">Observações</label>
+                    <textarea cols="" name="quote" rows="4"></textarea>
+                </div>
+                <div class="buttons">
+                    <button type="submit" class="submit">Submit</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </article>
+    </main>
+</body>
+
 </html>
