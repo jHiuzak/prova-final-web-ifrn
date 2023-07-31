@@ -25,7 +25,7 @@ Throughout this project, I had the opportunity to explore and deepen my understa
 
 # 🖼️ Screenshots
 
-![Home](/img/screenshots/screenshot.png)
+![Home](/img/screenshots/screenshot.jpeg)
 
 ## Credits
 
