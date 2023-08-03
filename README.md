@@ -4,6 +4,10 @@
 
 The IFRN Form project was created as a means to reinforce and apply my HTML and CSS knowledge by developing a form for students of the Federal Institute of Education, Science, and Technology. This form is intended for use as an exam in the University.
 
+## 💿 Live Demo
+
+Check out the live demo here: [IFRN Form](https://vasconcelos-giovanni.github.io/ifrn-form)
+
 ## 💡 Key Features
 
 ✅ Responsive layout to ensure usability across various devices.
@@ -27,11 +31,9 @@ Throughout this project, I had the opportunity to explore and deepen my understa
 
 ![Home](/img/screenshots/screenshot.jpeg)
 
-## Credits
+## 👷 Credits
 
-### Figures
-
-- IFRN logo
+- IFRN logo:
 	- Author: Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte.
 	- Web Page: portal.ifrn.edu.br
 	- E-mail: cocsev.cnat@ifrn.edu.br
